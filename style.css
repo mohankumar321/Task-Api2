@@ -1,0 +1,65 @@
+.image{
+    display: grid;
+    align-items: center;
+    margin-left: 50vh;
+    padding: 10vh;
+}
+
+.text{
+    text-align: center;
+   font-size: xx-large;
+   font-weight: bolder;
+   font-family: sans-serif;
+   margin: 10vh;
+   border: 1px solid rgb(251, 205, 255);
+   background: rgb(118, 4, 204);
+   border-radius: 10px;
+   color: aliceblue;
+   width: 70vh;
+   margin-left: 50vh;
+   
+}
+
+
+.text:hover{
+  font-weight:lighter;
+  border-radius: 10vh;
+  color: antiquewhite;
+  
+}
+   
+
+
+body{
+    display: grid;
+    background: linear-gradient(90deg, rgba(7,47,46,1) 0%, rgba(121,0,152,1) 0%, rgba(14,231,154,1) 0%, rgba(75,13,222,1) 100%);
+}
+
+button:hover{
+font-variant: small-caps;
+color: antiquewhite;
+}
+
+.btn{
+    border-radius: 10px;
+    font-size: xx-large;
+    color: rgb(254, 254, 254);
+font-family: sans-serif;
+width: 10vh;
+height: 3vh;
+text-align: center;
+margin-left: 75vh;
+background: linear-gradient(90deg, rgba(7,47,46,1) 0%, rgba(121,0,152,1) 0%, rgba(231,14,184,1) 0%, rgba(75,13,222,1) 100%);
+
+}
+
+.btn:hover{
+    
+    cursor: pointer;
+    background:linear-gradient(90deg, rgba(7,47,46,1) 0%, rgba(121,0,152,1) 0%, rgba(231,14,14,1) 0%, rgba(75,13,222,1) 100%) ;
+}
+
+image{
+    height: 30vh;
+    width: 30vh;
+}
